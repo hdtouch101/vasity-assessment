@@ -241,7 +241,7 @@ a{
         /* padding-left: 100px; */
     }
     .amazing{
-        width: 500px;
+        width: 100%;
     }
     .testimonial-1{
         display: flex;
@@ -255,16 +255,17 @@ a{
     .testimonial-text {
         width: 80%;
         padding-top: 20;
+        padding-bottom: 50px;
         
     }
     .testimonal-image{
-        padding: 0px;
-        width: 80%x;
+        padding-left: 0;
+        margin: auto;
+        width: 100%;
   
     }
     .circle{
-        width:90%;
-        padding: 0px;
+        display: none;
     }
     .container-section{
         display: flex;
@@ -307,4 +308,3 @@ a{
         display: flex;
         flex-direction: column;
     }
-}
