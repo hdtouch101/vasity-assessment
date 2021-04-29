@@ -218,14 +218,22 @@ a{
     .nav-content1, .nav-2 {
         display: none;
     }
+    .nav-logo{
+        margin: 0;
+        padding-right: 100px;
+        
+    }
     .content-header{
         display: flex;
         flex-direction: column;
         width: 100%;
         margin: 0;
+        padding: 0;
     }
     .header-text{
-        width: 300px;
+        width: 250px;
+        padding: 20px;
+        margin: 0;
         
        
     }
@@ -241,7 +249,7 @@ a{
         /* padding-left: 100px; */
     }
     .amazing{
-        width: 100%;
+        width: 80%;
     }
     .testimonial-1{
         display: flex;
@@ -301,10 +309,14 @@ a{
         padding-left: 40px;
     }
     .subscribe{
-        width: auto;
-        padding: 20px 30px;
+        width: 70%;
+        padding: 20px;
+    }
+    form{
+        width: 80%;
     }
     .footer{
         display: flex;
         flex-direction: column;
     }
+}
